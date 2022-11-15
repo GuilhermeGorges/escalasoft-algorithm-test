@@ -8,7 +8,7 @@ public class HighestSumValue {
     public static void highestValueSum(long[] numbers) {
         List<Long> sumNumbers = new ArrayList();
         long highestSumValue = 0;
-        for (int i = 0; i <= numbers.length; i+=2) {
+        for (int i = 0; i < numbers.length; i+=2) {
             sumNumbers.add(numbers[i]);
             highestSumValue += numbers[i];
         }
