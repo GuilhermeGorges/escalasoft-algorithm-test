@@ -1,6 +1,6 @@
 # escalasoft-algorithm-test
 
-## O repositório consiste em duas atividades sendo elas:
+### O repositório consiste em duas atividades sendo elas:
 
   1) Dada matriz de 0 e 1 (o tamanho da matriz pode ser n x n), fazer um algoritmo para substituir de 1 para 0
   o valor de cada posição da matriz que não é a borda da matriz e não está conectada com outra posição cujo
