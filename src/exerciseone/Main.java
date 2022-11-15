@@ -16,6 +16,19 @@ public class Main {
                         1, 1, 0, 0, 1, 0,
                         1, 0, 1, 1, 0, 0,
                         1, 0, 0, 0, 0, 1};
+//        int[] input = { 0, 1, 1, 1, 1, 0,
+//                        0, 1, 0, 1, 0, 1,
+//                        1, 0, 1, 0, 1, 0,
+//                        0, 1, 0, 0, 1, 0,
+//                        0, 0, 1, 1, 0, 0,
+//                        1, 1, 1, 0, 0, 0};
+//        int[] input = { 0, 0, 0, 0, 0, 0,
+//                        0, 0, 1, 0, 0, 0,
+//                        0, 0, 1, 0, 1, 1,
+//                        1, 1, 0, 1, 0, 0,
+//                        0, 0, 0, 1, 1, 0,
+//                        0, 0, 0, 1, 0, 0};
+
 
         for (int x = 0; x < xLength; x++) {
             for (int y = 0; y < yLength; y++) {
@@ -33,6 +46,7 @@ public class Main {
         Matrix.printMatrix(matrixB);
         System.out.println("Valores substituídos");
         Matrix.printMatrix(matrixReplaced);
+
 
     }
 }
