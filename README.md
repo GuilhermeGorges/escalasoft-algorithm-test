@@ -10,6 +10,32 @@
 
   - A conexão das posições da matriz pode ser vertical ou horizontal.
 
+  Exemplo: 
+
+    Matriz de input
+    1    0    0    0    0    0  
+    0    1    0    1    1    1  
+    0    0    1    0    1    0  
+    1    1    0    0    1    0  
+    1    0    1    1    0    0  
+    1    0    0    0    0    1  
+
+    Matriz de output
+    1    0    0    0    0    0  
+    0    0    0    1    1    1  
+    0    0    0    0    1    0  
+    1    1    0    0    1    0  
+    1    0    0    0    0    0  
+    1    0    0    0    0    1  
+
+    Valores substituídos
+    -    -    -    -    -    -  
+    -    1    -    -    -    -
+    -    -    1    -    -    -
+    -    -    -    -    -    -  
+    -    -    1    1    -    -
+    -    -    -    -    -    -  
+
   2) Dado array de inteiro positivo (no mínimo terá 3 posições e máximo n), fazer um algoritmo que retorne a
   maior soma possível entre os valores das posições do array que não estão conectadas.  
 
